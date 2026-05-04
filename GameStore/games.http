@@ -1,0 +1,32 @@
+GET http://localhost:5110/games
+
+###
+GET http://localhost:5110/games/1
+
+###
+POST http://localhost:5110/games
+Content-Type: application/json
+
+{
+    "name":"Super Mario II",
+    "genreId":3,
+    "price":9.99,
+    "releaseDate":"2023-10-20"
+}
+
+###
+PUT http://localhost:5110/games/1
+Content-Type: application/json
+
+{
+     "name":"Super Mario III",
+    "genreId":3,
+    "price":19.99,
+    "releaseDate":"2023-10-20"
+}
+
+###
+DELETE http://localhost:5110/games/4
+
+###
+GET  http://localhost:5110/genres
