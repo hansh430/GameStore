@@ -1,10 +1,10 @@
-# Use official .NET runtime
-FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS base
+# Use .NET 10 runtime (preview)
+FROM mcr.microsoft.com/dotnet/aspnet:10.0-preview AS base
 WORKDIR /app
 EXPOSE 8080
 
 # Build stage
-FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
+FROM mcr.microsoft.com/dotnet/sdk:10.0-preview AS build
 WORKDIR /src
 COPY . .
 RUN dotnet publish -c Release -o /app/publish
