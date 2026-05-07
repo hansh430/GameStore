@@ -3,7 +3,7 @@ using GameStore.EndPoints;
 
 
 var builder = WebApplication.CreateBuilder(args);
-builder.Services.AddValidation();
+//builder.Services.AddValidation();
 
 builder.AddGameStoreDb();
 builder.Services.AddCors(options =>
