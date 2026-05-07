@@ -14,10 +14,11 @@ A full-stack Game Store CRUD application built using:
 # 🚀 Live Demo
 
 ## Frontend
-https://your-vercel-url.vercel.app
+https://game-store-gold-eta.vercel.app/
 
 ## Backend API
-https://gamestore-7wju.onrender.com
+https://gamestore-7wju.onrender.com/games
+https://gamestore-7wju.onrender.com/genres
 
 ---
 
